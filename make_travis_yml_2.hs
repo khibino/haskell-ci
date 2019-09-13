@@ -127,8 +127,8 @@ knownGhcVersions = fmap mkVersion
     ]
 
 ghcAlpha :: Maybe Version
--- ghcAlpha = Nothing
-ghcAlpha = Just (mkVersion [8,8,1])
+ghcAlpha = Nothing
+-- ghcAlpha = Just (mkVersion [8,8,2])
 
 cabalVerMap :: [((Int, Int), Maybe Version)]
 cabalVerMap = fmap (fmap (fmap mkVersion))
